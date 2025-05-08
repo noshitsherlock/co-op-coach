@@ -3,24 +3,29 @@
  * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
  */
 
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
+const retroPrimary = "#FFB400"; // Warm yellow
+const retroSecondary = "#FF6F61"; // Coral red
+const retroAccent = "#2E8B57"; // Deep purple
+const retroBackgroundLight = "#FDF3E7"; // Cream
+const retroBackgroundDark = "#2E1A47"; // Deep plum
+const retroTextLight = "#4A4A4A"; // Dark gray
+const retroTextDark = "#EDEDED"; // Light gray
 
 export const Colors = {
   light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
+    text: retroTextLight,
+    background: retroBackgroundLight,
+    tint: retroPrimary,
+    icon: retroSecondary,
+    tabIconDefault: retroSecondary,
+    tabIconSelected: retroPrimary,
   },
   dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
+    text: retroTextDark,
+    background: retroBackgroundDark,
+    tint: retroPrimary,
+    icon: retroAccent,
+    tabIconDefault: retroAccent,
+    tabIconSelected: retroPrimary,
   },
 };
